@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://keshavjha06.github.io/sitemap/sitemap-index.xml
+Host: https://keshavjha06.github.io
