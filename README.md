@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/keshavjha06/keshavjha06.github.io/blob/main/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://github.com/keshavjha06/keshavjha06.github.io/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   Portfolio Website
@@ -10,7 +10,7 @@
 
 
 <div align="center">
-  <img alt="Demo" src="https://github.com/keshavjha06/keshavjha06.github.io/blob/main/src/images/demo.png" />
+  <img alt="Demo" src="https://github.com/keshavjha06/keshavjha06.github.io/main/src/images/demo.png" />
 </div>
 
 ### TL;DR
