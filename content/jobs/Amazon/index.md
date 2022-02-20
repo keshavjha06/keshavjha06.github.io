@@ -16,6 +16,6 @@ url: 'https://www.amazon.com/'
 
 - Involved in data creation, curation and analytical services to help develop, test and train Alexa AI for Hindi language through alexa app and device.
 
-- Contributed to process improvements to reduce handling time andimprove output.
+  Key Achievement: Contributed to process improvements to reduce handling time and improve output.
 
 - Received Star Performer Award View [CERTIFICATE](https://drive.google.com/file/d/17PfRTo1qbLWSeSaIFXiMr0lQ7E8cCJLV/view?usp=sharing)
