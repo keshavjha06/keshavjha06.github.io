@@ -5,12 +5,13 @@ skills:
   - Java 
   - Selenium
   - Appium
-  - API Testing
+  - REST Assured
+  - Postman
+  - Manual Testing
   - BDD Cucumber
   - Jenkins (CI/CD)
   - Maven
-  - TestNG
-  - Intellij IDEA
+  - Git
 ---
 
 Hello! I am a Software Development Engineer in Test (SDET) with 3+ years of experience in all layers of quality engineering with strong automation as well as functional knowledge .Skilled in Java,Selenium ,Appium,API Testing and Test
