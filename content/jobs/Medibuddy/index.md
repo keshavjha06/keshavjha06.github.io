@@ -1,7 +1,7 @@
 ---
 date: '2021-07-31'
 title: 'SDET - I'
-company: 'Medibuddy'
+company: 'MediBuddy'
 range: 'July 2021 - November 2022'
 url: 'https://www.medibuddy.in'
 ---
