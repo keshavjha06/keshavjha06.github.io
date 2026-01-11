@@ -6,17 +6,19 @@ range: 'July 2018 - August 2019'
 url: 'https://www.amazon.com/'
 ---
 
-- Worked towards enhancing the Response Delivery of Alexa AI (Virtual Personal Assistant) by Validating the correctness of data.
+- Improved Alexa response delivery quality by validating data accuracy and interacting with Alexa applications and devices.
 
-- Verified high priority deliverables.
+- Verified high-priority deliverables, ensuring compliance with quality standards and timelines.
 
-- Mentored new team members for the job role.
+- Mentored and onboarded new team members, supporting role readiness and productivity.
 
-- Worked with internal customers like ML data scientists by providing data required to improve Alexa's automatic speech recognition, NLU models and domain features.
+- Collaborated with ML data scientists and internal stakeholders by providing high-quality datasets to enhance ASR (Automatic Speech Recognition), NLU models, and domain features.
 
-- Involved in data creation, curation and analytical services to help develop, test and train Alexa AI for Hindi language through alexa app and device.
+- Performed Alexa device testing, data creation, curation, and analytical validation to support development, testing, and training of Alexa AI models.
+
+- Supported English (US) language models through extensive app and device level validation.
 
 - Received Star Performer Award View [CERTIFICATE](https://drive.google.com/file/d/17PfRTo1qbLWSeSaIFXiMr0lQ7E8cCJLV/view?usp=sharing)
 
-**Key Achievement**: Contributed to process improvements to reduce handling time and improve output.
+**Key Achievement**: Contributed to process improvements that reduced handling time and improved overall output quality.
 

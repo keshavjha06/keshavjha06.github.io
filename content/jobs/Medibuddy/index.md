@@ -6,24 +6,24 @@ range: 'July 2021 - November 2022'
 url: 'https://www.medibuddy.in'
 ---
 
-- Worked on key areas like corporates using Java with Selenium & BDD Cucumber Framework
+- Automated critical corporate workflows using Java, Selenium, and BDD Cucumber, improving regression coverage and release confidence.
 
-- Created Test Plans, Cases and Scripts for UAT, functional and regression testing
+- Designed and maintained test plans, test cases, and automation scripts for UAT, functional, and regression testing.
 
-- Designed, wrote, and executed test scripts for web UI using Selenium and Mobile Automation using Appium.
+- Developed and executed web UI automation using Selenium and mobile automation using Appium.
 
-- Automated process of fetching the latest apk uploaded in browserstack and start executing the test cases.
+- Built automation to dynamically fetch the latest APK from BrowserStack and trigger automated test execution, reducing manual setup effort.
 
-- Used Jenkins and GitHub to streamline QA Automation.
+- Integrated automation pipelines with Jenkins and GitHub, enabling continuous testing in CI/CD workflows.
+       
+- Implemented API automation using REST Assured and Postman to validate backend services and data integrity.
 
-- Designed, wrote, and executed test scripts for API using REST Assured and Postman.
+- Created Postman scripts to validate images and product availability across multiple pincodes, ensuring functional accuracy at scale.
 
-- Written a script in postman to verify different images & products in all the pincodes available.
+- Collaborated closely with developers and designers to resolve requirement gaps, design issues, and functional defects early in the SDLC.
 
-- Worked closely with application designers/developers to resolve documentation, design & functional issues with various applications.
-
-- Led and mentored manual QA engineers to execute and analyse automation smoke and regression tests.
+- Led and mentored QA engineers, guiding execution and analysis of automation smoke and regression test suites.
 
 - Received STAR OF THE MONTH Award View [CERTIFICATE](https://drive.google.com/file/d/1bIIxnAHfNwb6HuSTqw-5poAKfG3NmSeM/view)
 
-**Key Achievement**: Added test cases for **200+** corporates in web application.
+**Key Achievement**: Expanded test coverage by adding automation test cases for **200+** corporate clients in the web application.

@@ -6,20 +6,16 @@ range: 'Feb 2020 - June 2021'
 url: 'https://www.openplaytech.com/'
 ---
 
-- Analyzed business requirements and functional documents,created the test strategy document that define the test environment,phases of testing,entrance and exit criteria into different phases of testing.
+- Analyzed business requirements and functional specifications to define a comprehensive test strategy, including test environments, testing phases, and entry/exit criteria.
 
-- Defined and analyzed the test requirements including test data,test environments based on the application functionality.
+- Identified and documented test requirements, including test data and environment needs, aligned with application functionality.
 
-- Involved in writing Test Case by using Design docs and Acceptance criteria.
+- Designed and executed test cases based on design documents and acceptance criteria.
 
-- Performed functional testing,regression tesing and End to End testing of the new releases in workplace management.
+- Performed Functional, Regression, and End-to-End (E2E) testing for new releases of a workplace management application.
 
-- Performed extensive Cross Browser Compatibility testing on various web browsers like Google Chrome,Mozilla Firefox and Microsoft Edge and also in Mobile browsers like Chrome and safari.
+- Conducted extensive cross-browser and cross-platform testing across Chrome, Firefox, Edge, and mobile browsers (Chrome, Safari) to ensure consistent user experience.
 
-- Drafted Test Plan which included testing objectives,testing phases,scenarios and test environment after a thorough analysis of the business rules.
+- Authored detailed Test Plans outlining testing objectives, scenarios, phases, and environments following thorough business rule analysis.
 
-- Aggresively pursued the resolution of high level defects in the project to facilitate smooth functioning of the test execution.
-
-- Bug Reporting and Tracking through JIRA.
-
-**Key Achievement**: Slashed testing time by 70% by creating automation scripts using Selenium and Test Project.
+- Proactively drove the resolution of high-priority defects, collaborating closely with development teams to ensure smooth test execution and timely releases.
