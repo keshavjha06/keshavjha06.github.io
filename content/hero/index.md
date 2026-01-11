@@ -7,4 +7,4 @@ buttonText: 'Contact Me'
 
 I'm an India based SDE-Test with a goal-driven creative mindset and passion for learning and innovating.
 
-Currently working as a QA Engineer at [Forge](https://forge.gg/).
+Currently working as a Senior QA Engineer at [Forge](https://forge.gg/).
