@@ -66,9 +66,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I&apos;m an India based SDET who builds test automation across the web, mobile, API and
-        database layers. Playwright POM & BDD frameworks, Selenium and Appium suites, and a few
-        hundred API automation tests along the way.
+        I&apos;m an SDET who builds test automation across the web, mobile, API and database layers.
+        Playwright POM & BDD frameworks, Selenium and Appium suites, and a few hundred API
+        automation tests along the way.
       </p>
 
       <p>
