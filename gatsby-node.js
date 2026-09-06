@@ -5,8 +5,6 @@
  */
 
 const path = require('path');
-// Only used by the commented-out createPages block below (blog/tag pages).
-// const _ = require('lodash');
 
 // Declare optional frontmatter fields so queries for them don't fail when no
 // markdown file currently uses them. `@infer` keeps inference on for every other field.
