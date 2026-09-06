@@ -150,14 +150,14 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I&apos;m a Software Development Engineer in Test with 6+ years across the full
-              quality stack, from manual and functional testing through to designing automation
+              Hello! I&apos;m a Software Development Engineer in Test with experience across the
+              full quality stack, from manual and functional testing to building scalable automation
               frameworks from scratch.
             </p>
 
             <p>
-              I care about tests that are fast, readable, and actually catch things and about
-              clearing the Ready-for-QA backlog before it becomes someone else&apos;s problem.
+              I care about building tests that are fast, readable, and actually catch issues before
+              they become someone else&apos;s problem.
             </p>
 
             <p>Here are a few technologies I&apos;ve been working with recently:</p>
