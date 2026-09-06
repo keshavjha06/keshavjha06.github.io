@@ -2,7 +2,7 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Keshav Jha | Software Development Engineer In Test',
+    title: 'Keshav Jha',
     description: 'Keshav Jha is a SDET, who loves learning new things.',
     siteUrl: 'https://keshavjha06.github.io',
     image: '/og.png', // Path to your image you placed in the 'static' folder
