@@ -126,18 +126,20 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Java',
     'JavaScript',
     'Playwright',
+    'Java',
     'Selenium',
     'Appium',
     'REST Assured',
-    'Postman',
-    'Manual Testing',
     'BDD Cucumber',
+    'TestNG / Maven',
+    'API Testing',
     'Jenkins (CI/CD)',
+    'SQL / DB Testing',
     'k6',
     'Docker',
+    'BrowserStack',
   ];
 
   return (
@@ -148,12 +150,17 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I am a Software Development Engineer in Test (SDET) with 5+ years of experience
-              in all layers of quality engineering with strong automation as well as functional
-              testing knowledge.
+              Hello! I&apos;m a Software Development Engineer in Test with 6+ years across the full
+              quality stack, from manual and functional testing through to designing automation
+              frameworks from scratch.
             </p>
 
-            <p>Here is a list of the technologies that I&apos;m familiar with!</p>
+            <p>
+              I care about tests that are fast, readable, and actually catch things and about
+              clearing the Ready-for-QA backlog before it becomes someone else&apos;s problem.
+            </p>
+
+            <p>Here are a few technologies I&apos;ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">

@@ -62,12 +62,13 @@ const Hero = () => {
 
   const one = <h1>Namaste! My name is</h1>;
   const two = <h2 className="big-heading">Keshav Jha</h2>;
-  const three = <h3 className="medium-heading">I love exploring new things!</h3>;
+  const three = <h3 className="medium-heading">I break things before your users do.</h3>;
   const four = (
     <>
       <p>
-        I&apos;m an India based SDE-Test with a goal-driven creative mindset and passion for
-        learning and innovating.
+        I&apos;m an India based SDET who builds test automation across the web, mobile, API and
+        database layers. Playwright POM & BDD frameworks, Selenium and Appium suites, and a few
+        hundred API automation tests along the way.
       </p>
 
       <p>
