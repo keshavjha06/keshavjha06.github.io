@@ -27,33 +27,33 @@ Yes, you can fork this repo. Please give proper credit by linking back to [britt
 2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
 
    ```sh
-   nvm install
+   nvm install --force
    ```
 
-3. Install dependencies
+3. Build using Gatsby
 
    ```sh
-   yarn
+   gatsby build
    ```
 
-4. Start the development server
+4. Start the development server (localhost)
 
    ```sh
    npm start
    ```
 
-## 🚀 Building and Running for Production
+## 🚀 Building and Running for Production (GitHub Pages)
 
 1. Generate a full static production build
 
    ```sh
-   npm run build
+   gatsby build
    ```
 
-1. Preview the site as it will appear once deployed
+2. Push to production
 
    ```sh
-   npm run serve
+   npm run deploy
    ```
 
 ## 🎨 Color Reference
