@@ -2,15 +2,13 @@
 date: '2022-12-01'
 title: 'Sr QA Engineer'
 company: 'Forge'
-range: 'December 2022 - Present'
+range: 'December 2022 - April 2026'
 url: 'https://www.forge.gg/'
 ---
 
 - Delivered scalable automation and high-confidence releases across Web3, blockchain wallets, NFTs, and gaming quest systems through deep API, UI, and E2E testing.
 
 - Created **300+** API automation scripts for enterprise and partner integrations.
-
-- Raised **70+** high-priority defects and validated **120+** bugs and tasks, ensuring stable Forge Launch and production releases.
 
 - Led Visual Testing POC, migrating from Mocha to Playwright-BDD (Cucumber) for scalable UI and API automation.
 

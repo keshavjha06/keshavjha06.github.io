@@ -1,17 +1,6 @@
 module.exports = {
-  siteTitle: 'Keshav Jha | Software Development Engineer In Test',
-  siteDescription: 'Keshav Jha is a SDET, who loves learning new things.',
-  siteKeywords:
-    'Keshav Jha, keshav jha, keshavjha06, SDET, QA, software engineer, Java, JavaScript, Selenium, Playwright, Hyderabad, Amazon',
-  siteUrl: 'https://keshavjha06.github.io/',
-  siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Keshav Jha',
-  location: 'Hyderabad, India',
   email: 'keshavjha0610@gmail.com',
-  github: 'https://github.com/keshavjha06',
-  twitterHandle: '@keshavjha06',
+
   socialMedia: [
     {
       name: 'GitHub',
@@ -50,15 +39,13 @@ module.exports = {
     },
   ],
 
-  navHeight: 100,
-
   colors: {
     green: '#64ffda',
     navy: '#0a192f',
     darkNavy: '#020c1b',
   },
 
-  srConfig: (delay = 200) => ({
+  srConfig: (delay = 200, viewFactor = 0.25) => ({
     origin: 'bottom',
     distance: '20px',
     duration: 500,
@@ -70,7 +57,7 @@ module.exports = {
     mobile: true,
     reset: false,
     useDelay: 'always',
-    viewFactor: 0.25,
+    viewFactor,
     viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
   }),
 };
