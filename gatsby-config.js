@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'Keshav Jha | Software Development Engineer In Test',
     description: 'Keshav Jha is a SDET, who loves learning new things.',
-    siteUrl: 'https://keshavjha06.github.io', // No trailing slash allowed!
-    image: '/images/og.png', // Path to your image you placed in the 'static' folder
+    siteUrl: 'https://keshavjha06.github.io',
+    image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@keshavjha06',
   },
   plugins: [

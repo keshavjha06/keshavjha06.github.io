@@ -60,7 +60,7 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hello World! My name is</h1>;
+  const one = <h1>Namaste! My name is</h1>;
   const two = <h2 className="big-heading">Keshav Jha</h2>;
   const three = <h3 className="medium-heading">I love exploring new things!</h3>;
   const four = (
@@ -72,8 +72,8 @@ const Hero = () => {
 
       <p>
         Currently working as a Senior QA Engineer at{' '}
-        <a href="https://forge.gg/" target="_blank" rel="noreferrer">
-          Forge
+        <a href="https://www.ggwp.com/" target="_blank" rel="noreferrer">
+          GGWP
         </a>
         .
       </p>

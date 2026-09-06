@@ -136,7 +136,7 @@ const About = () => {
     'Manual Testing',
     'BDD Cucumber',
     'Jenkins (CI/CD)',
-    'Maven',
+    'k6',
     'Docker',
   ];
 
@@ -169,7 +169,7 @@ const About = () => {
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="Headshot"
+              alt="Avatar"
             />
           </div>
         </StyledPic>

@@ -148,12 +148,12 @@ const ArchivePage = ({ location, data }) => {
 
   return (
     <Layout location={location}>
-      <Helmet title="Archive" />
+      <Helmet title="Archive | Keshav Jha" />
 
       <main>
         <header ref={revealTitle}>
           <h1 className="big-heading">Archive</h1>
-          <p className="subtitle">A complete list of my work</p>
+          <p className="subtitle">A big list of things I’ve worked on</p>
         </header>
 
         <StyledTableContainer ref={revealTable}>
@@ -162,8 +162,8 @@ const ArchivePage = ({ location, data }) => {
               <tr>
                 <th>Year</th>
                 <th>Title</th>
-                <th className="hide-on-mobile">Category</th>
-                <th className="hide-on-mobile">Tags</th>
+                <th className="hide-on-mobile">Made at</th>
+                <th className="hide-on-mobile">Built with</th>
                 <th>Link</th>
               </tr>
             </thead>
