@@ -1,5 +1,5 @@
 ---
-date: '2023-06-02'
+date: '2023-12-10'
 title: 'TextUtils App'
 github: 'https://github.com/keshavjha06/react-textutils'
 external: 'https://keshavjha06.github.io/react-textutils/'

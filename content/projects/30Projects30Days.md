@@ -1,5 +1,5 @@
 ---
-date: '2024-10-22'
+date: '2023-10-22'
 title: '30 Projects 30 Days'
 github: 'https://github.com/keshavjha06/30Projects30Days'
 tech:
