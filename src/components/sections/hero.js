@@ -41,6 +41,10 @@ const StyledHeroSection = styled.section`
     max-width: 540px;
   }
 
+  .highlight {
+    color: var(--green);
+  }
+
   .email-link {
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
@@ -66,9 +70,12 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I am a SDET with experience designing and implementing robust automation solutions 
+        I am a <span className="highlight">SDET</span> with experience designing and implementing robust automation solutions 
         across web, mobile, API, and database layers. I specialize in building scalable 
-        and maintainable test frameworks using Playwright, Selenium and Appium.
+        and maintainable test frameworks using {' '}
+        <a href="https://playwright.dev/">Playwright</a>, {' '}
+        <a href="https://selenium.dev/">Selenium</a> and {' '}
+        <a href="https://appium.io/">Appium</a>.
       </p>
 
       <p>
