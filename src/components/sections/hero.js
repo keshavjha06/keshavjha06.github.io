@@ -66,9 +66,15 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I&apos;m an SDET who builds test automation across the web, mobile, API and database layers.
-        Playwright POM & BDD frameworks, Selenium and Appium suites, and a few hundred API
-        automation tests along the way.
+        I am a SDET with experience designing and implementing robust automation solutions 
+        across web, mobile, API, and database layers. I specialize in building scalable 
+        and maintainable test frameworks using Playwright, Selenium and Appium.
+      </p>
+
+      <p>
+        My focus is on combining strong automation practices with functional testing expertise and 
+        comprehensive API automation to deliver reliable, high-quality software and confidence 
+        throughout the software development lifecycle.
       </p>
 
       <p>
