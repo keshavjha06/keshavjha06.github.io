@@ -27,24 +27,21 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-75d0d900c63b11f8484d.js"
+    "url": "webpack-runtime-6b42effce395b217f565.js"
   },
   {
-    "url": "framework-84ce2dfb5e6488baa8a6.js"
+    "url": "framework-47683471e7f63732a8ed.js"
   },
   {
-    "url": "app-8455b24611acb3de5f2d.js"
+    "url": "app-3158a0cfed40217d2c05.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "fe3d8994d4eccb4a1353f04afb4c675d"
-  },
-  {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-162d54bec23a104748fe.js"
+    "revision": "17ff5dea417b6993706ebf3ca1fce69b"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "eb9fca9c532af10d5bcfb3f7541792c8"
+    "revision": "83e6f182116bcad25fba0744bf79ddae"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -70,6 +67,24 @@ const MessageAPI = {
 
   clearPathResources: event => {
     event.waitUntil(idbKeyval.clear())
+
+    // We detected compilation hash mismatch
+    // we should clear runtime cache as data
+    // files might be out of sync and we should
+    // do fresh fetches for them
+    event.waitUntil(
+      caches.keys().then(function (keyList) {
+        return Promise.all(
+          keyList.map(function (key) {
+            if (key && key.includes(`runtime`)) {
+              return caches.delete(key)
+            }
+
+            return Promise.resolve()
+          })
+        )
+      })
+    )
   },
 
   enableOfflineShell: () => {
@@ -136,7 +151,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-8455b24611acb3de5f2d.js`))) {
+  if (!resources || !(await caches.match(`/app-3158a0cfed40217d2c05.js`))) {
     return await fetch(event.request)
   }
 
