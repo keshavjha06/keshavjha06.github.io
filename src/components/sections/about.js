@@ -128,6 +128,8 @@ const About = () => {
   const skills = [
     'JavaScript',
     'Playwright',
+    'Python',
+    'Pytest',
     'Java',
     'Selenium',
     'Appium',
