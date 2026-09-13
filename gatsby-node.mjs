@@ -1,14 +1,11 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const path = require('path');
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Declare optional frontmatter fields so queries for them don't fail when no
 // markdown file currently uses them. `@infer` keeps inference on for every other field.
-exports.createSchemaCustomization = ({ actions }) => {
+export const createSchemaCustomization = ({ actions }) => {
   actions.createTypes(`
     type MarkdownRemarkFrontmatter @infer {
       location: String
@@ -18,7 +15,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 };
 
 // https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig
-exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
+export const onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   // https://www.gatsbyjs.org/docs/debugging-html-builds/#fixing-third-party-modules
   if (stage === 'build-html' || stage === 'develop-html') {
     actions.setWebpackConfig({

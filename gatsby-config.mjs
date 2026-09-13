@@ -1,6 +1,10 @@
-const config = require('./src/config');
+import path from 'path';
+import { fileURLToPath } from 'url';
+import config from './src/config.js';
 
-module.exports = {
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+export default {
   siteMetadata: {
     title: 'Keshav Jha',
     description: 'Keshav Jha is a SDET, who loves learning new things.',
