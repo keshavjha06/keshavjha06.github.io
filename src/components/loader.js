@@ -29,7 +29,7 @@ const StyledLoader = styled.div`
       margin: 0 auto;
       fill: none;
       user-select: none;
-      #B {
+      #K {
         opacity: 0;
       }
     }
@@ -51,7 +51,7 @@ const Loader = ({ finishLoading }) => {
         duration: 1500,
         ease: 'inOutQuart',
       })
-      .add('#logo #B', {
+      .add('#logo #K', {
         duration: 700,
         ease: 'inOutQuart',
         opacity: 1,
