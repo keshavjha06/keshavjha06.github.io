@@ -6,14 +6,12 @@ range: 'July 2026 - Present'
 url: 'https://www.ggwp.com/'
 ---
 
-- Built a Playwright + Page Object Model (POM) UI automation framework
-from scratch, supporting 3 environments.
+- Drove UI and API test automation, CI quality gates, and backend QA for an AI-powered platform, building reliable and scalable test coverage across multiple environments.
 
-- Migrated the legacy test suite in **8 weeks**, scaling it to **636 automated
-tests** and reducing fixed waits by **87%**.
+- Built a Playwright + Page Object Model (POM) UI automation framework from scratch, supporting 3 environments.
 
-- Implemented a Jenkins CI pipeline with tag-based test execution,
-production write safeguards, and ESLint quality gates.
+- Migrated the legacy test suite in **8 weeks**, scaling it to **636 automated tests** and reducing fixed waits by **87%**.
 
-- Owned backend QA and API automation for **4 new features**, ensuring
-functional correctness and integration reliability.
+- Implemented a Jenkins CI pipeline with tag-based test execution, production write safeguards, and ESLint quality gates.
+
+- Owned backend QA and API automation for **4 new features**, ensuring functional correctness and integration reliability.
